@@ -1,0 +1,22 @@
+{
+  "id": "abyss-plugin-automation",
+  "name": "自动化编排",
+  "version": "0.1.0",
+  "minHost": 1,
+  "minApp": "0.1.0",
+  "category": "automation",
+  "summary": "任务蓝图 JSON 调度引擎：shell / python / ui_toast 步骤链 + 定时任务 + 触发器。",
+  "icon": "⚡",
+  "permissions": [
+    "FOREGROUND_SERVICE",
+    "RECEIVE_BOOT_COMPLETED"
+  ],
+  "entry": "com.abyss.tools.plugin.automation.AutomationPlugin",
+  "repo": "Ultra-Guru/abyss-plugin-automation",
+  "patchChannel": "https://raw.githubusercontent.com/Ultra-Guru/abyss-plugin-automation/main/patches/index.json",
+  "roadmap": [
+    "v0.2 蓝图解析与执行",
+    "v0.3 定时任务",
+    "v0.4 进阶任务解锁"
+  ]
+}
